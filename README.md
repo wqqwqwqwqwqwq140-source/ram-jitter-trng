@@ -2,7 +2,7 @@ A Hardware True Random Number Generator (TRNG) based on CPU-RAM timing jitter.
 
 > **The Story:** The core concept of this project was conceived when I was 12 years old. The idea was simple yet brilliant: measure the microscopic time variations when pushing bits between the CPU and RAM to harvest pure physical entropy. This repository contains the concrete implementation of that childhood idea in pure C++.
 
-## How It Works 🛠️
+## How It Works 
 
 Unlike pseudo-random generators (PRNG) that rely on mathematical formulas, this algorithm exploits **physical hardware jitter**:
 
